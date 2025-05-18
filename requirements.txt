@@ -145,6 +145,9 @@ wheel
 loguru
 
 # HTTP requests made simple
+# ======================================================
+# NETWORKING / HTTP
+# ======================================================
 # requests
 
 # Environment variables management
