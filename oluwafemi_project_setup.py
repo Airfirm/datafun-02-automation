@@ -114,7 +114,7 @@ def create_folders_from_list(folder_list: list) -> None:
         folder_path.mkdir(exist_ok=True)                     # avoids program from crashing if folder already exists
         logger.info(f"Created folder: {folder_path}")        # log message for each folder created
 
-    # pass
+    pass
 
 
   
@@ -146,7 +146,7 @@ def create_prefixed_folders_using_list_comprehension(folder_list: list, prefix: 
         path.mkdir(exist_ok=True)                                            # create each folder
         logger.info(f"Created folder: {path}")                               # log message for each folder created
 
-    # pass
+    pass
 
   
 
@@ -180,7 +180,7 @@ def create_folders_periodically(duration_seconds: int = 5) -> None:
         logger.info(f"Created folder: {folder_path}")                        # log message for each folder created
         time.sleep(duration_seconds)  # wait for the specified duration
         counter += 1                                                         # increment the counter
-    # pass
+    pass
 
 
 #####################################
@@ -213,7 +213,7 @@ def create_standardized_folders(folder_list: list, to_lowercase: bool = False, r
         folder_path.mkdir(exist_ok=True)                    # avoids program from crashing if folder already exists
         logger.info(f"Created folder: {folder_path}")       # log message for each folder created
 
-    # pass
+    pass
   
 #####################################
 # Define a main() function for this module.
